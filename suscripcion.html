@@ -3,67 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planes de Suscripción HRBP | Avanzar RH</title>
+    <title>Membresías de Acompañamiento Continuo | Avanzar RH</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        avanzar: {
-                            DEFAULT: '#0062A3',
-                            dark: '#004B7D',
-                            light: '#E6F0F8',
-                            border: '#B3D4EC'
-                        }
-                    }
-                }
-            }
-        }
-    </script>
     <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen py-8">
+<body class="bg-slate-50 text-slate-800 antialiased py-8">
 
-    <header class="max-w-4xl mx-auto px-4 mb-8">
-        <div class="bg-white border-2 border-avanzar-border rounded-2xl p-6 shadow-sm flex justify-between items-center">
-            <div class="flex items-center space-x-4">
-                <img src="logo-avanzar.png" alt="Avanzar RH" class="h-12 w-auto" onerror="this.onerror=null; this.src='avanzar%20250x250.png';">
-                <div>
-                    <h1 class="font-extrabold text-lg text-avanzar">Avanzar RH</h1>
-                    <p class="text-xs text-slate-500">Membresías de Gestión Humana Continua</p>
-                </div>
+    <header class="max-w-6xl mx-auto px-4 mb-8">
+        <div class="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-2xl p-6 shadow-md flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo-avanzar.png" alt="Avanzar RH" class="h-10 w-auto" onerror="this.onerror=null; this.src='avanzar%20250x250.png';">
+                <span class="font-bold text-lg text-white hidden sm:inline">Avanzar RH</span>
             </div>
-            <a href="index.html" class="text-xs font-bold text-slate-500 hover:text-avanzar">← Volver al Menú</a>
+            <div class="flex gap-3">
+                <a href="index.html" class="text-xs font-bold text-blue-200 hover:text-white my-auto">← Volver al Menú</a>
+                <a href="https://wa.me/59899343810?text=Hola%20Noelia,%20quiero%20consultar%20por%20los%20planes%20de%20Membres%C3%ADa%20Mensual" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-4 py-2 rounded-xl transition shadow flex items-center gap-2">
+                    <span>Consulta Directa</span> 💬
+                </a>
+            </div>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 space-y-8">
-        <div class="bg-avanzar-light border-2 border-avanzar-border rounded-3xl p-8">
-            <span class="bg-avanzar text-white text-[10px] font-extrabold px-3 py-1 rounded-full uppercase">Acompañamiento Recurrente</span>
-            <h2 class="text-3xl font-black text-avanzar-dark mt-3">Tu Departamento de RRHH Externalizado</h2>
-            <p class="text-xs text-slate-600 mt-2">Contá con el respaldo estratégico de Avanzar RH de forma permanente a un costo mensual predecible.</p>
+    <section class="max-w-4xl mx-auto px-4 pt-4 pb-6 text-center">
+        <span class="bg-blue-100 text-blue-900 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">Respaldo Profesional Continuo</span>
+        <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 mt-4 leading-tight">Membresías de Acompañamiento Continua</h1>
+        <p class="text-base text-slate-600 mt-3 max-w-2xl mx-auto">Un servicio de dirección y gestión humana externa para contar con el respaldo permanente de Avanzar RH a una fracción del costo de un área interna.</p>
+    </section>
 
-            <div class="grid md:grid-cols-3 gap-6 mt-8">
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 text-center">
-                    <h3 class="font-bold text-slate-900">Esencial</h3>
-                    <span class="block text-2xl font-black text-slate-900 mt-2">$10.900 <span class="text-xs font-normal text-slate-500">UYU/mes</span></span>
+    <section class="max-w-6xl mx-auto px-4 py-8">
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- PLAN ESENCIAL -->
+            <div class="bg-white border-2 border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div>
+                    <span class="bg-slate-100 text-slate-700 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase">Pyme Inicial</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3">Plan Esencial</h2>
+                    <p class="text-xs text-slate-500 mt-1">Asesoramiento directo y prevención de contingencias laborales.</p>
+                    <hr class="my-4 border-slate-100">
+                    <ul class="text-xs space-y-2 text-slate-700 mb-6">
+                        <li class="flex items-center gap-1.5"><span class="text-slate-900 font-bold">✔</span> Canal WhatsApp Prioritario</li>
+                        <li class="flex items-center gap-1.5"><span class="text-slate-900 font-bold">✔</span> Revisión preventiva de contratos</li>
+                        <li class="flex items-center gap-1.5"><span class="text-slate-900 font-bold">✔</span> Inversión: $10.900 UYU/mes</li>
+                    </ul>
                 </div>
-                <div class="bg-white p-6 rounded-2xl border-2 border-avanzar text-center shadow-md">
-                    <span class="bg-avanzar text-white text-[9px] font-bold px-2 py-0.5 rounded-full uppercase">Más Elegido</span>
-                    <h3 class="font-bold text-slate-900 mt-1">Estratégico</h3>
-                    <span class="block text-2xl font-black text-avanzar-dark mt-2">$18.900 <span class="text-xs font-normal text-slate-500">UYU/mes</span></span>
-                </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 text-center">
-                    <h3 class="font-bold text-slate-900">Integral</h3>
-                    <span class="block text-2xl font-black text-slate-900 mt-2">$34.900 <span class="text-xs font-bold text-slate-500">UYU/mes</span></span>
-                </div>
+                <a href="plan-esencial.html" class="block text-center w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl text-xs transition">Ver Plan & Presupuesto ➔</a>
             </div>
-        </div>
-    </main>
 
-    <footer class="text-center py-8 text-xs text-slate-400">
+            <!-- PLAN ESTRATÉGICO -->
+            <div class="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 text-white rounded-2xl p-6 shadow-lg transition flex flex-col justify-between relative transform md:-translate-y-2">
+                <span class="absolute -top-3 right-6 bg-amber-400 text-slate-950 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow">Elección Inteligente ⭐</span>
+                <div>
+                    <span class="bg-white/10 text-blue-100 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase border border-white/20">HRBP Partner</span>
+                    <h2 class="text-xl font-bold text-white mt-3">Plan Estratégico</h2>
+                    <p class="text-xs text-blue-100/80 mt-1">Acompañamiento activo con métricas y beneficio en selección.</p>
+                    <hr class="my-4 border-white/10">
+                    <ul class="text-xs space-y-2 text-blue-50 mb-6">
+                        <li class="flex items-center gap-1.5"><span class="text-amber-400 font-bold">✔</span> Reporte Pulso Mensual</li>
+                        <li class="flex items-center gap-1.5"><span class="text-amber-400 font-bold">✔</span> Clima Trimestral con IA</li>
+                        <li class="flex items-center gap-1.5"><span class="text-amber-400 font-bold">✔</span> Inversión: $18.900 UYU/mes</li>
+                    </ul>
+                </div>
+                <a href="plan-estrategico.html" class="block text-center w-full bg-amber-400 hover:bg-amber-500 text-slate-950 font-extrabold py-3 px-4 rounded-xl text-xs transition shadow">Ver Plan & Presupuesto ➔</a>
+            </div>
+
+            <!-- PLAN INTEGRAL -->
+            <div class="bg-white border-2 border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div>
+                    <span class="bg-slate-100 text-slate-700 text-[10px] font-extrabold px-2.5 py-1 rounded uppercase">Escala Mayor</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3">Plan Integral</h2>
+                    <p class="text-xs text-slate-500 mt-1">Para empresas medianas que requieren consultoría presencial in-situ.</p>
+                    <hr class="my-4 border-slate-100">
+                    <ul class="text-xs space-y-2 text-slate-700 mb-6">
+                        <li class="flex items-center gap-1.5"><span class="text-slate-900 font-bold">✔</span> Visita presencial mensual</li>
+                        <li class="flex items-center gap-1.5"><span class="text-slate-900 font-bold">✔</span> Tablero de KPIs en tiempo real</li>
+                        <li class="flex items-center gap-1.5"><span class="text-slate-900 font-bold">✔</span> Inversión: $34.900 UYU/mes</li>
+                    </ul>
+                </div>
+                <a href="plan-integral.html" class="block text-center w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl text-xs transition">Ver Plan & Presupuesto ➔</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-center py-8 text-xs text-slate-400 border-t border-slate-200 mt-8">
         © 2026 Avanzar RH - Lic. Noelia Gorgerino
     </footer>
 </body>
