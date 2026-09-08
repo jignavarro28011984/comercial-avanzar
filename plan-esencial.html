@@ -12,24 +12,24 @@
             .no-print, header, footer { display: none !important; }
             body { background-color: white !important; color: #0f172a !important; padding: 0 !important; }
             main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
-            .shadow-sm, .shadow-md, .shadow-lg, .shadow-xl { box-shadow: none !important; }
+            .shadow-sm, .shadow-md, .shadow-lg { box-shadow: none !important; }
         }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased min-h-screen py-8">
 
     <header class="max-w-4xl mx-auto px-4 mb-8 no-print">
-        <div class="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-2xl p-6 shadow-md flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="bg-white border-2 border-blue-200 rounded-2xl p-6 shadow-sm flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex items-center space-x-4">
                 <img src="logo-avanzar.png" alt="Avanzar RH" class="h-12 w-auto" onerror="this.onerror=null; this.src='avanzar%20250x250.png';">
                 <div>
-                    <h1 class="font-extrabold text-lg text-white">Avanzar RH</h1>
-                    <p class="text-xs text-blue-200 font-medium">Membresía Continua • Lic. Noelia Gorgerino</p>
+                    <h1 class="font-extrabold text-lg text-blue-950">Avanzar RH</h1>
+                    <p class="text-xs text-blue-700 font-medium">Membresía Continua • Lic. Noelia Gorgerino</p>
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <a href="index.html" class="text-xs font-bold text-blue-100 hover:text-white">← Volver al Menú</a>
-                <button onclick="window.print()" class="bg-white text-slate-900 font-extrabold text-xs px-4 py-2 rounded-xl transition shadow">
+                <a href="suscripcion.html" class="text-xs font-bold text-slate-500 hover:text-blue-900">← Volver al Menú</a>
+                <button onclick="window.print()" class="bg-blue-900 hover:bg-blue-800 text-white font-bold text-xs px-4 py-2 rounded-xl transition shadow">
                     Imprimir / PDF 🖨️
                 </button>
             </div>
@@ -54,39 +54,57 @@
                     <p><strong>Ref:</strong> COT-PLAN-ESENCIAL</p>
                 </div>
             </div>
-            <div class="mt-4 pt-3 border-t border-slate-200 flex justify-between text-[11px] text-slate-700">
-                <p><strong>Presentado a:</strong> Dirección General / Gerencia Pyme</p>
-                <p><strong>Moneda:</strong> Pesos Uruguayos ($ UYU)</p>
-            </div>
         </div>
 
-        <section class="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 text-white rounded-3xl p-8 shadow-xl">
-            <span class="bg-white/10 text-blue-100 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase border border-white/20">🔵 Pyme Inicial • Prevención & Respaldo</span>
-            <h2 class="text-3xl font-black text-white mt-3">Plan Esencial de Respaldo Continuo</h2>
-            <p class="text-sm text-blue-100/80 mt-2">Diseñado para pequeñas empresas que buscan prevenir imprevistos laborales y contar con asesoramiento profesional directo sin asumir el costo de un área interna.</p>
+        <section class="bg-white border-2 border-blue-300 rounded-3xl p-8 shadow-sm space-y-6">
+            <span class="bg-blue-100 text-blue-900 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase">🔵 PYME Inicial • Prevención & Respaldo</span>
+            
+            <div>
+                <h2 class="text-3xl font-black text-slate-900 mt-1">Plan Esencial de Respaldo Continuo</h2>
+                <p class="text-sm text-slate-600 mt-2">Diseñado para empresas que buscan prevenir imprevistos laborales y contar con asesoramiento profesional directo sin asumir el costo de un área interna.</p>
+            </div>
 
-            <hr class="my-6 border-white/10">
+            <hr class="border-blue-100">
 
-            <div class="grid md:grid-cols-2 gap-6 my-6">
+            <div class="grid md:grid-cols-2 gap-6">
                 <div>
-                    <h3 class="font-bold text-xs uppercase text-amber-400 tracking-wider mb-3">Beneficios Incluidos:</h3>
-                    <ul class="text-xs space-y-2.5 text-blue-50">
-                        <li class="flex items-start gap-2"><span class="text-amber-400 font-bold">✔</span> <span><strong>Canal WhatsApp Prioritario:</strong> Respuestas directas para la gerencia.</span></li>
-                        <li class="flex items-start gap-2"><span class="text-amber-400 font-bold">✔</span> <span><strong>Revisión Preventiva:</strong> Evaluación de contratos y sanciones laborales.</span></li>
-                        <li class="flex items-start gap-2"><span class="text-amber-400 font-bold">✔</span> <span><strong>Reunión Mensual de Alineación:</strong> 60 minutos directos con Lic. Noelia Gorgerino.</span></li>
+                    <h3 class="font-bold text-xs uppercase text-blue-900 tracking-wider mb-3">Beneficios Incluidos:</h3>
+                    <ul class="text-xs space-y-2.5 text-slate-700">
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✔</span> <span><strong>Canal WhatsApp Prioritario:</strong> Asesoramiento gerencial directo.</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✔</span> <span><strong>Revisión Preventiva:</strong> Evaluación de contratos, sanciones y normas.</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✔</span> <span><strong>Reunión Mensual de Alineación:</strong> 60 minutos (virtuales) de consulta con Lic. Noelia Gorgerino.</span></li>
                     </ul>
                 </div>
-                <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 flex flex-col justify-between text-center">
+                <div class="bg-blue-50 p-6 rounded-2xl border border-blue-200 flex flex-col justify-between text-center">
                     <div>
-                        <span class="text-[10px] uppercase font-extrabold text-blue-200 block">Suscripción Mensual</span>
-                        <span class="text-3xl font-black text-white mt-1 block">$10.900 <span class="text-xs font-bold text-blue-200">UYU/mes</span></span>
-                        <span class="text-[11px] text-amber-400 font-bold block mt-2">($363 UYU / día • Menos que un café diario)</span>
+                        <span class="text-[10px] uppercase font-extrabold text-blue-800 block">Suscripción Mensual</span>
+                        <span class="text-3xl font-black text-blue-950 mt-1 block">$10.900 <span class="text-xs font-bold text-blue-800">UYU/mes + IVA</span></span>
+                        <span class="text-[11px] text-blue-900/80 block mt-2">Pausa o cancelación con 30 días de aviso.</span>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-slate-50 p-4 rounded-xl text-xs text-slate-600 border border-slate-200 mt-6 no-print flex flex-col md:flex-row justify-between items-center gap-4">
-                <span>Sin contratos de permanencia (pausá con 30 días de aviso).</span>
+            <!-- BLOQUE ¿CÓMO EMPEZAMOS? -->
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 text-xs text-slate-700 space-y-3">
+                <h4 class="font-extrabold text-slate-900 text-xs uppercase tracking-wider">🚀 ¿Cómo empezamos?</h4>
+                <div class="grid md:grid-cols-3 gap-4 text-[11px] text-slate-600">
+                    <div class="bg-white p-3 rounded-xl border border-slate-200">
+                        <span class="font-bold text-blue-900 block mb-1">Paso 1: Activación & Ficha (5 min)</span>
+                        <p>Confirmas por WhatsApp y te compartimos un formulario breve de 3 preguntas para preparar tu primera sesión o relevamiento.</p>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-slate-200">
+                        <span class="font-bold text-blue-900 block mb-1">Paso 2: Sesión de Alineación / Inicio</span>
+                        <p>Coordinamos en agenda el primer encuentro (virtual o presencial según el plan) para fijar el objetivo exacto y el inicio del servicio.</p>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-slate-200">
+                        <span class="font-bold text-blue-900 block mb-1">Paso 3: Entrega & Cierre Tangible</span>
+                        <p>Ejecutamos el plan estipulado y te entregamos tu carpeta final con todos los documentos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 p-4 rounded-xl text-xs text-slate-600 border border-slate-200 no-print flex flex-col md:flex-row justify-between items-center gap-4">
+                <span>Sin contratos de permanencia obligatoria.</span>
                 <a href="https://wa.me/59899343810?text=Hola%20Noelia,%20quiero%20activar%20el%20Plan%20Esencial" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-5 py-2.5 rounded-xl transition shadow flex items-center gap-2">
                     <span>Activar Plan Esencial por WhatsApp</span> 💬
                 </a>
@@ -98,7 +116,6 @@
                 <div>
                     <h4 class="font-bold text-slate-900 uppercase">Condiciones del Servicio:</h4>
                     <p class="mt-1">• Facturación mensual recurrente sin permanencia obligatoria.</p>
-                    <p>• Cancelación o pausa notificando con 30 días de antelación.</p>
                 </div>
                 <div class="text-right pt-6">
                     <p class="font-bold text-slate-900">Lic. Noelia Gorgerino</p>
